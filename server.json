@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/google-ads-transparency-monitor-mcp",
+  "title": "Google Ads Transparency Scraper",
+  "description": "Scrape any advertiser's Google Ads Transparency Center ads, with new-ad alerts, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/google-ads-transparency-monitor-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/google-ads-transparency-monitor"
+    }
+  ]
+}

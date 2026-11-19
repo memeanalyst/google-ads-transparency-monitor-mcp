@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "google-ads-transparency-monitor": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/google-ads-transparency-monitor"
+    }
+  }
+}
